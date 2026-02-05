@@ -8,7 +8,7 @@ import plotly.express as px
 # Step 1: Load your data
 # -----------------------------
 observations = pd.read_csv("observations.csv")  # Historical data
-events = pd.read_csv("events.csv")              # Event-impact data
+events = pd.read_csv("events.csv")              # Event-impact dataevents.csv
 forecasts = pd.read_csv("forecasts.csv")        # Forecasted values from Task 4
 
 # -----------------------------
