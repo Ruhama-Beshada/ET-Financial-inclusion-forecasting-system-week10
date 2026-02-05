@@ -2,6 +2,8 @@
 
 This repository contains a comprehensive analysis and forecasting of financial inclusion in Ethiopia. It includes historical data exploration, event impact modeling, forecasting, and an interactive dashboard for stakeholders.
 
+---
+
 ## Project Overview
 
 The project is structured into five main tasks:
@@ -13,14 +15,14 @@ The project is structured into five main tasks:
 **Objective:** Understand the starter dataset and enrich it with additional data useful for forecasting.
 
 ### Key Steps:
-- Loaded and explored `ethiopia_fi_unified_data.csv`.
+- Loaded and explored ethiopia_fi_unified_data.csv.
 - Examined observations, events, and target records.
 - Reviewed impact_links for modeled relationships.
 - Added new observations, events, and impact_links where needed (with source documentation, confidence levels, and collection notes).
 
 ### Outputs:
 - Enriched dataset ready for analysis.
-- `data_enrichment_log.md` documenting all additions and changes.
+- data_enrichment_log.md documenting all additions and changes.
 
 ---
 
@@ -29,7 +31,7 @@ The project is structured into five main tasks:
 **Objective:** Analyze patterns and factors influencing financial inclusion.
 
 ### Key Steps:
-- Summarized dataset by `record_type`, `pillar`, and `source_type`.
+- Summarized dataset by record_type, pillar, and source_type.
 - Visualized temporal coverage of indicators.
 - Assessed data quality and identified gaps.
 - Analyzed account ownership, mobile money adoption, and active usage trends.
@@ -64,7 +66,7 @@ The project is structured into five main tasks:
 
 ## Task 4: Forecasting Access and Usage
 
-**Objective:** Forecast Account Ownership and Digital Payment Usage for 2025–2027.
+**Objective:** Forecast Account Ownership and Digital Payment Usage for 2025-2027.
 
 ### Key Steps:
 - Defined targets:
@@ -90,10 +92,10 @@ The project is structured into five main tasks:
 **Objective:** Create an interactive dashboard for stakeholders to explore data, event impacts, and forecasts.
 
 ### Key Features:
-- **Overview Page:** Key metrics, P2P/ATM ratio, growth highlights.
-- **Trends Page:** Interactive time series plots, date range selector, channel comparison.
-- **Forecasts Page:** Forecast visualizations with scenario selection.
-- **Inclusion Projections Page:** Progress toward 60% account ownership target.
+- Overview Page: Key metrics, P2P/ATM ratio, growth highlights.
+- Trends Page: Interactive time series plots, date range selector, channel comparison.
+- Forecasts Page: Forecast visualizations with scenario selection.
+- Inclusion Projections Page: Progress toward 60% account ownership target.
 
 ### Technical Details:
 - Built with Streamlit.
